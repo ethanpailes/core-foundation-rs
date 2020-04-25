@@ -17,7 +17,7 @@ extern crate core_foundation;
 extern crate bitflags;
 
 #[macro_use]
-extern crate foreign_types;
+pub extern crate foreign_types;
 
 pub mod base;
 pub mod color;
